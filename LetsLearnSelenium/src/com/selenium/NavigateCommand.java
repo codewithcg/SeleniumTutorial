@@ -1,6 +1,7 @@
 package com.selenium;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -11,6 +12,8 @@ public class NavigateCommand {
 		System.out.println("Automation Started");
 		System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
+		driver.manage().window().setPosition(new Point(2000, 400));
+		driver.manage().window().maximize();
 		driver.get("https://the-internet.herokuapp.com/");
 		// driver.navigate().to("https://the-internet.herokuapp.com/");
 		// driver.navigate().back();
