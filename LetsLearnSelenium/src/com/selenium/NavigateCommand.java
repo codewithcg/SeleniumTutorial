@@ -27,6 +27,8 @@ public class NavigateCommand {
 		String text = driver.findElement(By.xpath("//*[@id='flash']")).getText();
 		// System.out.println("Message is : " + text);
 
+		// driver.findElement(By.).click();
+
 		if (text.contains("You logged")) {
 			System.out.println("Hurray I am logged in");
 		}
