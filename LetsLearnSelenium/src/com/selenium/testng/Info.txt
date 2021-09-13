@@ -1,0 +1,11 @@
+
+// TestNg is a test framework :
+Its a framework to manage your test classes, methods and executions
+
+Java- JUnit, TestNG
+C#- XUnit, MSTest, Nunit
+Javascript - Jasmine
+
+main & @Test
+
+Suite>>Test>>Class
