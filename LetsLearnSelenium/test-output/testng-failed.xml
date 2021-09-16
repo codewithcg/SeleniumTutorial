@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.selenium.testng.TestClass01">
+      <class name="com.selenium.testng.WaitClassDemo">
         <methods>
-          <include name="method01"/>
+          <include name="demoWaitExplicitWait"/>
         </methods>
-      </class> <!-- com.selenium.testng.TestClass01 -->
+      </class> <!-- com.selenium.testng.WaitClassDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
