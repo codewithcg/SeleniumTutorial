@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-16T10:37:00 IST" name="Default suite" finished-at="2021-09-16T10:37:24 IST" duration-ms="23461">
+  <suite started-at="2021-09-20T10:37:38 IST" name="Default suite" finished-at="2021-09-20T10:37:57 IST" duration-ms="18643">
     <groups>
     </groups>
-    <test started-at="2021-09-16T10:37:00 IST" name="Default test" finished-at="2021-09-16T10:37:24 IST" duration-ms="23461">
-      <class name="com.selenium.testng.WaitClassDemo">
-        <test-method signature="demoWaitExplicitWait()[pri:0, instance:com.selenium.testng.WaitClassDemo@7b02881e]" started-at="2021-09-16T10:37:01 IST" name="demoWaitExplicitWait" finished-at="2021-09-16T10:37:24 IST" duration-ms="23146" status="PASS">
+    <test started-at="2021-09-20T10:37:38 IST" name="Default test" finished-at="2021-09-20T10:37:57 IST" duration-ms="18643">
+      <class name="com.selenium.framework.HandleJavascriptAlerts">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.selenium.framework.HandleJavascriptAlerts@21b2e768]" started-at="2021-09-20T10:37:38 IST" name="init" finished-at="2021-09-20T10:37:53 IST" duration-ms="15155" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demoWaitExplicitWait -->
-      </class> <!-- com.selenium.testng.WaitClassDemo -->
+        </test-method> <!-- init -->
+        <test-method signature="handlejsalertPrompt()[pri:0, instance:com.selenium.framework.HandleJavascriptAlerts@21b2e768]" started-at="2021-09-20T10:37:53 IST" name="handlejsalertPrompt" finished-at="2021-09-20T10:37:54 IST" duration-ms="1050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlejsalertPrompt -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.framework.HandleJavascriptAlerts@21b2e768]" started-at="2021-09-20T10:37:54 IST" name="tearDown" finished-at="2021-09-20T10:37:57 IST" duration-ms="2326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.framework.HandleJavascriptAlerts -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
