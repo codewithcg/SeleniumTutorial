@@ -17,7 +17,7 @@ public class BaseSeleniumTest {
 		driver = new ChromeDriver();
 		driver.manage().window().setPosition(new Point(-2000, 100));
 		driver.manage().window().maximize();
-		driver.get("https://the-internet.herokuapp.com/javascript_alerts");
+		driver.get("file://C://Users//chandangupta//Desktop//Windows.html");
 	}
 
 	@AfterMethod
