@@ -15,14 +15,14 @@ public class BaseSeleniumTest {
 		System.out.println("Automation Started");
 		System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.manage().window().setPosition(new Point(-2000, 100));
+		driver.manage().window().setPosition(new Point(2000, 100));
 		driver.manage().window().maximize();
-		driver.get("file://C://Users//chandangupta//Desktop//Windows.html");
+		driver.get("https://the-internet.herokuapp.com/login");
 	}
 
 	@AfterMethod
 	public void tearDown() {
-		driver.quit();
+		// driver.quit();
 	}
 
 }
